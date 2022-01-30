@@ -1,0 +1,992 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Define Charset -->
+	<meta charset="UTF-8">
+
+	<!-- Page Title -->
+	<title>Academian</title>
+
+	<!-- Responsive Metatag --> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->
+       <link rel="shortcut icon" href="favicon.ico">
+	<!-- Stylesheet
+	===================================================================================================  -->
+	<link rel="stylesheet" href="font/fontello.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media-queries.css">
+	<!-- Loader helper -->
+	<style id="loader_helper" type="text/css">
+		.tp-simpleresponsive >ul >li{visibility: hidden !important;}
+	</style>
+</head>
+
+
+<body>
+
+	<div id="loader">
+
+		<!-- Topbar -->
+		<section class="top-bar">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 social-media">
+						<a href="#" data-toggle="tooltip" class="tooltips" data-placement="bottom" title="Facebook"><i class="icon-facebook"></i></a>
+						<a href="#" data-toggle="tooltip" class="tooltips" data-placement="bottom" title="Twitter"><i class="icon-twitter"></i></a>
+						<a href="#" data-toggle="tooltip" class="tooltips" data-placement="bottom" title="Linkedin"><i class="icon-linkedin"></i></a>
+						<a href="#" data-toggle="tooltip" class="tooltips" data-placement="bottom" title="Youtube"><i class="icon-play"></i></a>
+						<a href="#" data-toggle="tooltip" class="tooltips" data-placement="bottom" title="Pinterest"><i class="icon-pinterest"></i></a>
+						<a href="#" data-toggle="tooltip" class="tooltips" data-placement="bottom" title="Google Plus"><i class="icon-gplus"></i></a>
+					</div>
+					<div class="col-sm-6 data-info">
+						<p><i class="icon-mail"></i> info@academian.com</p>
+						<p><i class="icon-mobile"></i> +44 7901 234830</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end Topbar -->
+	 	
+	 	<!-- Fixed navbar -->
+	 	<header>
+		    <div class="navbar navbar-default" role="navigation">
+		      <div class="container">
+		        <div class="navbar-header">
+		          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		            <span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		          </button>
+		          <a class="navbar-brand" href="#"><img src="img/logo.jpeg " height="50px" width="50px" alt="Academian"></a>
+		        </div>
+		        <div class="navbar-collapse collapse">
+		          <ul class="nav navbar-nav navbar-right">
+		            <li class="active"><a href="#menu-slider">Home</a></li>
+		            <li class="drop"><a href="#menu-features">Services</a>
+					<div class="menu" data-animation="tada">
+					<a class="gotowizrd">ACADIMIC WRITING</a>
+					<a href="#menu-slider">University Approval</a>
+					</div>
+					</li>
+		            <li><a href="#menu-teachers">Contact US</a></li>
+					  <li><a href="#menu-testimonials">Reviews</a></li>
+					  <li><a href="#blog">Blog</a></li>
+					  <li><a href="#information">Bussniss Information</a></li>
+		            <!--<li><a href="#menu-pricing">Pricing</a></li>-->
+		            <!--<li><a href="http://themeforest.net/user/CoralixThemes/portfolio" class="external">External</a></li>-->
+		          </ul>
+				  <div class="help">
+					<button class="gotowizrd">Reqeust Help</button>
+				</div>
+		        </div><!--/.nav-collapse -->
+				
+		      </div>
+		    </div>
+	    </header>
+
+
+		
+		<!-- Slider -->
+		<section class="slider" id="menu-slider">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<h3>A better way to</h3>
+						<h2>Success</h2>
+						<h4>Lorem ipsum dolor sit amet, <br/> ei vis sint persecuti.</h4>
+						<hr />
+						<h4>Suscribe to the form and get all the<br/> information that you need</h4>
+					</div>
+					<div class="col-sm-6">
+						<form id="request" class="row suscribe" action="request-form.php" method="post" accept-charset="utf-8">
+							<div class="col-sm-12">
+								<input type="text" class="form-control" placeholder="Name" name="name">
+								<input type="email" class="form-control" placeholder="Email" name="email">
+							</div>
+							<div class="col-sm-12">
+								<input type="text" class="form-control" placeholder="Message" name="phone">
+								<select class="form-control" name="program">
+	                    			<option>Select degree program</option>
+	                    			<option>Degree</option>
+	                    			<option>Master</option>
+	                    			<option>PhD</option>
+                                </select>
+							</div>
+							<div class="text-center">
+								<button type="submit" class="btn btn-default text-center"><i class="icon-info"></i> Request Information</button>
+							</div>		
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end Slider -->
+
+		
+		<!-- Features -->
+		<section class="features generic" id="menu-features">
+			<div class="container">
+				<div class="row">
+					<article class="item col-sm-3">
+						<a ><i onclick="goto('Assignment')" class="icon-monitor"></i></a>
+						<h2>Assignment</h2>
+						<p>Lorem ipsum dolor sit amet, ei vis sint persecuti. Vis labore efficiantur instructior ea, no nulla commune recteque sed, iusto ubique oportere est an. </p>
+					</article>
+					<article class="item col-sm-3">
+						<a ><i class="icon-users" onclick="goto('Essay')"></i></a>
+						<h2>Essay</h2>
+						<p>Lorem ipsum dolor sit amet, ei vis sint persecuti. Vis labore efficiantur instructior ea, no nulla commune recteque sed, iusto ubique oportere est an. </p>
+					</article>
+					<article class="item col-sm-3">
+						<a><i class="icon-book-open" onclick="goto('Reports')"></i></a>
+						<h2>Reports</h2>
+						<p>Lorem ipsum dolor sit amet, ei vis sint persecuti. Vis labore efficiantur instructior ea, no nulla commune recteque sed, iusto ubique oportere est an. </p>
+					</article>
+					<article class="item col-sm-3">
+						<a ><i class="icon-graduation-cap" onclick="goto('Reflection')"></i></a>
+						<h2>Reflection Reports</h2>
+						<p>Lorem ipsum dolor sit amet, ei vis sint persecuti. Vis labore efficiantur instructior ea, no nulla commune recteque sed, iusto ubique oportere est an. </p>
+					</article>
+					<article class="item col-sm-3">
+						<a ><i class="icon-graduation-cap" onclick="goto('Presentations')"></i></a>
+						<h2>Presentations</h2>
+						<p>Lorem ipsum dolor sit amet, ei vis sint persecuti. Vis labore efficiantur instructior ea, no nulla commune recteque sed, iusto ubique oportere est an. </p>
+					</article>
+					<article class="item col-sm-3">
+						<a href="#"><i class="icon-book-open" onclick="goto('Desertations')"></i></a>
+						<h2>Desertations</h2>
+						<p>Lorem ipsum dolor sit amet, ei vis sint persecuti. Vis labore efficiantur instructior ea, no nulla commune recteque sed, iusto ubique oportere est an. </p>
+					</article>
+					<article class="item col-sm-3">
+						<a><i class="icon-graduation-cap" onclick="goto('Proposals')"></i></a>
+						<h2>Proposals</h2>
+						<p>Lorem ipsum dolor sit amet, ei vis sint persecuti. Vis labore efficiantur instructior ea, no nulla commune recteque sed, iusto ubique oportere est an. </p>
+					</article>
+					<article class="item col-sm-3">
+						<a ><i class="icon-graduation-cap" onclick="gotoProjects()"></i></a>
+						<h2>Projects</h2>
+						<p>Lorem ipsum dolor sit amet, ei vis sint persecuti. Vis labore efficiantur instructior ea, no nulla commune recteque sed, iusto ubique oportere est an. </p>
+					</article>
+				</div>
+			</div>
+		</section>
+		<!-- end Features -->
+
+
+		<!--&lt;!&ndash; Classes &ndash;&gt;-->
+		<!--<section class="classes generic" id="menu-classes" data-animation="tada">-->
+			<!--<div class="container">-->
+				<!--<div class="row title">-->
+					<!--<div class="col-sm-12">-->
+						<!--<h2>Online Classes</h2>-->
+						<!--<p>Morbi dignissim non dolor non placerat. Ut sit amet lectus at neque quis vel imperdiet ullamcorper auctor.</p>-->
+					<!--</div>-->
+				<!--</div>-->
+				<!--<div class="row">-->
+					<!--<div class="item col-sm-3" >-->
+						<!--<a href="#class01" data-toggle="modal">-->
+							<!--<figure>-->
+								<!--<img src="img/classes/class-01.jpg" alt="">-->
+								<!--<figcaption> <span>View</span></figcaption>-->
+							<!--</figure>-->
+						<!--</a>-->
+					<!--</div>-->
+					<!--<div class="item col-sm-3">-->
+						<!--<a href="#class02" data-toggle="modal">-->
+							<!--<figure>-->
+								<!--<img src="img/classes/class-02.jpg" alt="">-->
+								<!--<figcaption> <span>View</span></figcaption>-->
+							<!--</figure>-->
+						<!--</a>-->
+					<!--</div>-->
+					<!--<div class="item col-sm-3">-->
+						<!--<a href="#class01" data-toggle="modal">-->
+							<!--<figure>-->
+								<!--<img src="img/classes/class-03.jpg" alt="">-->
+								<!--<figcaption> <span>View</span></figcaption>-->
+							<!--</figure>-->
+						<!--</a>-->
+					<!--</div>-->
+					<!--<div class="item col-sm-3">-->
+						<!--<a href="#class01" data-toggle="modal">-->
+							<!--<figure>-->
+								<!--<img src="img/classes/class-04.jpg" alt="">-->
+								<!--<figcaption> <span>View</span></figcaption>-->
+							<!--</figure>-->
+						<!--</a>-->
+					<!--</div>-->
+				<!--</div>-->
+				<!--<div class="row">-->
+					<!--<div class="item col-sm-3">-->
+						<!--<a href="#class01" data-toggle="modal">-->
+							<!--<figure>-->
+								<!--<img src="img/classes/class-05.jpg" alt="">-->
+								<!--<figcaption> <span>View</span></figcaption>-->
+							<!--</figure>-->
+						<!--</a>-->
+					<!--</div>-->
+					<!--<div class="item col-sm-3">-->
+						<!--<a href="#class01" data-toggle="modal">-->
+							<!--<figure>-->
+								<!--<img src="img/classes/class-06.jpg" alt="">-->
+								<!--<figcaption> <span>View</span></figcaption>-->
+							<!--</figure>-->
+						<!--</a>-->
+					<!--</div>-->
+					<!--<div class="item col-sm-3">-->
+						<!--<a href="#class01" data-toggle="modal">-->
+							<!--<figure>-->
+								<!--<img src="img/classes/class-07.jpg" alt="">-->
+								<!--<figcaption> <span>View</span></figcaption>-->
+							<!--</figure>-->
+						<!--</a>-->
+					<!--</div>-->
+					<!--<div class="item col-sm-3">-->
+						<!--<a href="#class01" data-toggle="modal">-->
+							<!--<figure>-->
+								<!--<img src="img/classes/class-08.jpg" alt="">-->
+								<!--<figcaption> <span>View</span></figcaption>-->
+							<!--</figure>-->
+						<!--</a>-->
+					<!--</div>-->
+				<!--</div>-->
+			<!--</div>-->
+		<!--</section>-->
+		<!--&lt;!&ndash; end Classes &ndash;&gt;-->
+
+
+		<!--&lt;!&ndash; Upcoming Classes &ndash;&gt;-->
+		<!--<section class="upcoming generic">-->
+			<!--<div class="container">-->
+				<!--<div class="row title">-->
+					<!--<div class="col-sm-12">-->
+						<!--<h2>Upcoming Classes</h2>-->
+						<!--<p>Morbi dignissim non dolor non placerat. Ut sit amet lectus at neque quis vel imperdiet ullamcorper auctor.</p>-->
+					<!--</div>-->
+				<!--</div>-->
+				<!--<div class="row">-->
+					<!--<div class="col-sm-6">-->
+					<!--<div class="video">-->
+						<!--<iframe width="580" height="290" src="http://www.youtube.com/embed/sQhY_l_J9rs" allowfullscreen></iframe>-->
+					<!--</div>-->
+					<!--</div>-->
+					<!--<div class="col-sm-6">-->
+						<!--<div class="panel-group" id="accordion">-->
+						  <!--<div class="panel panel-default">-->
+						    <!--<div class="panel-heading">-->
+						      <!--<h4 class="panel-title">-->
+						        <!--<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><i class="icon-mobile"></i> Create apps for the iPhone and iPad</a>-->
+						      <!--</h4>-->
+						    <!--</div>-->
+						    <!--<div id="collapseOne" class="panel-collapse collapse in">-->
+						      <!--<div class="panel-body">-->
+						        <!--Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put.-->
+						      <!--</div>-->
+						    <!--</div>-->
+						  <!--</div>-->
+						  <!--<div class="panel panel-default">-->
+						    <!--<div class="panel-heading">-->
+						      <!--<h4 class="panel-title">-->
+						        <!--<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><i class="icon-user"></i> the programming language of iOS apps</a>-->
+						      <!--</h4>-->
+						    <!--</div>-->
+						    <!--<div id="collapseTwo" class="panel-collapse collapse">-->
+						      <!--<div class="panel-body">-->
+						        <!--Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put aeer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.-->
+						      <!--</div>-->
+						    <!--</div>-->
+						  <!--</div>-->
+						  <!--<div class="panel panel-default">-->
+						    <!--<div class="panel-heading">-->
+						      <!--<h4 class="panel-title">-->
+						        <!--<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><i class="icon-search"></i> important concepts & tools for SEO</a>-->
+						      <!--</h4>-->
+						    <!--</div>-->
+						    <!--<div id="collapseThree" class="panel-collapse collapse">-->
+						      <!--<div class="panel-body">-->
+						        <!--Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatatn it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.-->
+						      <!--</div>-->
+						    <!--</div>-->
+						  <!--</div>-->
+						<!--</div>					-->
+					<!--</div>-->
+				<!--</div>-->
+			<!--</div>-->
+		<!--</section>-->
+		<!--&lt;!&ndash; end Upcoming Classes &ndash;&gt;-->
+
+
+		<!-- Teachers -->
+		<section class="teachers generic" id="menu-teachers">
+			<div class="container">
+				
+				<div class="row title">
+					<div class="col-sm-12">
+						<h2>Meet the Teachers</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, distinctioptatem eligendi dolore numquam dolor quis ex velit esse.</p>
+					</div>
+				</div>
+
+
+				<div class="row">
+
+					<div class="item col-sm-3 item" >
+						<a href="#teacher01" data-toggle="modal">
+							<div class="class_title">
+								<h2> Jason Smith </h2>
+							</div>
+							<figure>
+								<img src="img/teachers/teacher-01.jpg" alt="">
+								<figcaption><i class="icon-plus-circled"></i></figcaption>
+							</figure>
+							<div class="description">
+								<h3><strong>Mathematics</strong></h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							</div>
+						</a>
+					</div>
+
+					<div class="item col-sm-3 item" >
+						<a href="#teacher02" data-toggle="modal">
+							<div class="class_title">
+								<h2> JAKE VALINER </h2>
+							</div>
+							<figure>
+								<img src="img/teachers/teacher-02.jpg" alt="">
+								<figcaption><i class="icon-plus-circled"></i></figcaption>
+							</figure>
+							<div class="description">
+								<h3><strong>Marketing</strong></h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							</div>
+						</a>
+					</div>
+
+					<div class="item col-sm-3 item" >
+						<a href="#teacher03" data-toggle="modal">
+							<div class="class_title">
+								<h2> Tom Reedert </h2>
+							</div>
+							<figure>
+								<img src="img/teachers/teacher-03.jpg" alt="">
+								<figcaption><i class="icon-plus-circled"></i></figcaption>
+							</figure>
+							<div class="description">
+								<h3><strong>web designer</strong></h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							</div>
+						</a>
+					</div>
+
+					<div class="item col-sm-3 item" >
+						<a href="#teacher04" data-toggle="modal">
+							<div class="class_title">
+								<h2> JAKE VALINER </h2>
+							</div>
+							<figure>
+								<img src="img/teachers/teacher-04.jpg" alt="">
+								<figcaption><i class="icon-plus-circled"></i></figcaption>
+							</figure>
+							<div class="description">
+								<h3><strong>SEO</strong></h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							</div>
+						</a>
+					</div>
+				</div>	
+			</div>
+		</section>
+		<!-- end Teachers -->
+
+
+		<!-- Pricing Table -->
+		<section class="table generic" id="menu-pricing">
+			<div class="container">
+				<div class="row title">
+					<div class="col-sm-12">
+						<h2>Select your price</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, distinctioptatem eligendi dolore numquam dolor quis ex velit esse.</p>
+					</div>
+				</div>
+				<!--<div class="row">-->
+					<!--<div class="col-sm-3">-->
+						<!--<ul class="table-list">-->
+							<!--<li class="table-header">Online Sales Class</li>-->
+							<!--<li class="table-price">$19,<sup>00</sup></li>-->
+							<!--<li>PREMIUM PROFILE LISTING</li>-->
+							<!--<li>UNLIMITED FILE ACCESS</li>-->
+							<!--<li>FREE APPOINTMENTS</li>-->
+							<!--<li>5 BONUS POINTS EVERY </li>-->
+							<!--<li>2 MONTHS SUPPORT</li>-->
+							<!--<li>2 SUBDOMAINS</li>-->
+							<!--<li class="table-button"><a class="btn btn-default" href="#"><i class="icon-basket"></i>Buy Now</a></li>-->
+						<!--</ul>-->
+					<!--</div>-->
+					<div class="col-sm-4">
+						<ul class="table-list">
+							<li class="table-header">Assignment</li>
+							<li class="table-price">$20,<sup>00</sup></li>
+							<li>300 Words</li>
+							<li>Degree</li>
+							<li> English,French, or Arabic</li>
+							<li>7 days </li>
+
+							<li class="table-button"><a class="btn btn-default" href="#"><i class="icon-basket"></i>Order Now</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-4">
+						<ul class="table-list">
+							<li class="table-header">Essay</li>
+							<li class="table-price">$30,<sup>00</sup></li>
+							<li>400 words</li>
+							<li>English</li>
+							<li>7 Days</li>
+							<li>Master </li>
+
+							<li class="table-button"><a class="btn btn-default" href="#"><i class="icon-basket"></i>Order Now</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-4">
+						<ul class="table-list">
+							<li class="table-header">Project</li>
+							<li class="table-price">$50,<sup>00</sup></li>
+							<li>7 Pages</li>
+							<li>Arabic</li>
+							<li>Documentation</li>
+							<li>10 Days </li>
+							<li class="table-button"><a class="btn btn-default" href="#"><i class="icon-basket"></i>Order Now</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end Pricing Table -->
+
+
+		<!--&lt;!&ndash; Video &ndash;&gt;-->
+		<!--<section class="video_fullscreen">	-->
+			<!--<div id="P1" class="player" style="display:block; margin: auto; background: rgba(0,0,0,0.5)" data-property="{videoURL:'http://youtu.be/KyxA_9Ul8So',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1, showYTLogo:false, showControls:false}"></div>	-->
+		<!--</section>-->
+		<!--&lt;!&ndash; end Video &ndash;&gt;-->
+
+
+		<!-- Testimonials -->
+		<section class="testimonials generic" id="menu-testimonials">
+			<div class="container">
+				<div class="row title">
+					<div class="col-sm-12">
+						<h2>Reviews</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, distinctioptatem eligendi dolore numquam dolor quis ex velit esse.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-2">
+						<div class="date">
+							<h5>14 April <br />2014</h5>
+						</div>
+					</div>
+					<div class="col-sm-10 container_item">
+						<div class="item-testimonial">
+							<h3>Master Degree of Design</h3>
+							<h4>Max Smithson</h4>
+							<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quom placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui faorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Nam liber tempor cum soluta nobis eleifend option </p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-2 ">
+						<div class="date">
+							<h5>14 April <br />2014</h5>
+						</div>
+					</div>
+					<div class="col-sm-10 container_item">
+						<div class="item-testimonial">
+							<h3>Master Degree of Design</h3>
+							<h4>Max Smithson</h4>
+							<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quom placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui faorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Nam liber tempor cum soluta nobis eleifend option </p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-2">
+						<div class="date">
+							<h5>14 April <br />2014</h5>
+						</div>
+					</div>
+					<div class="col-sm-10 container_item">
+						<div class="item-testimonial">
+							<h3>Master Degree of Design</h3>
+							<h4>Max Smithson</h4>
+							<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quom placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui faorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Nam liber tempor cum soluta nobis eleifend option </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end Testimonials -->
+		<!-- Start Blog -->
+		<div class="blog" id="blog">
+			<div>
+			<h2> Blog </h2>
+		  </div>
+				<div
+				  class="Blog-container">
+				  <div class="Blog-item" >
+				  <div class="blog-img">  
+					<img  src="img/classes-modal/02.jpg" alt="">
+					</div>
+					<div class="Blog-body">
+					<h3 class="Blog-title">Title</h3>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem delectus</p>
+								   <ul class="utility-list">
+			<li><span class="licon icon-like"><i class="icofont-eye-alt"></i></span>views  /</li>
+			<li><span class="licon icon-dat"><i class="icofont-clock-time"></i></span>03 jun 2017 /</li>
+			<li><span class="licon icon-tag"><i class="icofont-label"></i></span>keyword</li>
+		  </ul>
+					</div>
+				  </div>
+				  <div class="Blog-item" >
+					<div class="blog-img">  
+					  <img  src="img/classes-modal/01.jpg" alt="">
+					 
+					  </div>
+					  <div class="Blog-body">
+						<h3 class="Blog-title">Title</h3>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem delectus</p>
+					<ul class="utility-list">
+			  <li><span class="licon icon-like"><i class="icofont-eye-alt"></i></span>views  /</li>
+			  <li><span class="licon icon-dat"><i class="icofont-clock-time"></i></span>03 jun 2017 /</li>
+			  <li><span class="licon icon-tag"><i class="icofont-label"></i></span>keyword</li>
+			</ul>
+					  </div>
+					</div>
+					<div class="Blog-item" >
+						<div class="blog-img">  
+						  <img  src="img/classes-modal/03.jpg" alt="">
+						
+						  </div>
+						  <div class="Blog-body">
+							<h3 class="Blog-title">Title</h3>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem delectus</p>
+					<ul class="utility-list">
+				  <li><span class="licon icon-like"><i class="icofont-eye-alt"></i></span>views  /</li>
+				  <li><span class="licon icon-dat"><i class="icofont-clock-time"></i></span>03 jun 2017 /</li>
+				  <li><span class="licon icon-tag"><i class="icofont-label"></i></span>keyword</li>
+				</ul>
+						  </div>
+						</div>
+				</div>
+		</div>
+		<!-- End Blog -->
+		<!-- Call to action -->
+		<section class="cta generic" id="information">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-8">
+						<h2>Your Success Way</h2>
+					</div>
+					<div class="col-sm-4">
+						<a href="#" class="btn btn-default"><i class="icon-basket"></i> Get more information</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end Call to action -->
+
+		<!-- Footer -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<h6 class="footer_left">Payment System</h6>
+						<ul class="footer_center">
+							<li>
+								<a href="#">
+									<figure>
+										<img src="img/cards/card-01.png" alt="card">
+									</figure>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<figure>
+										<img src="img/cards/card-02.png" alt="card">
+									</figure>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<figure>
+										<img src="img/cards/card-03.png" alt="card">
+									</figure>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<figure>
+										<img src="img/cards/card-04.png" alt="card">
+									</figure>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<figure>
+										<img src="img/cards/card-05.png" alt="card">
+									</figure>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<figure>
+										<img src="img/cards/card-06.png" alt="card">
+									</figure>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-8">
+						<h6 class="footer_right">© 2021 Yes Soft.</h6>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<a href="#" class="scrollup"><i class="icon-up-open"></i></a>      
+
+	</div>
+	<!-- end Loader -->
+
+	<!-- Modal 01-->
+	<div class="modal fade" id="class01" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	        <h4 class="modal-title">Mathematic Classes</h4>
+	      </div>
+	      <div class="modal-body">
+	      	<figure>
+	      		<img src="img/classes-modal/01.jpg" alt="img">
+	      	</figure>
+	      	<h4>Description of the Course</h4>
+	      	<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+	      	<a href="http://cssarrowplease.com/" class="btn btn-default"> Suscribe now</a>
+	      </div>
+	      <div class="modal-footer"></div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- Modal 02-->
+	<div class="modal fade" id="class02" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	        <h4 class="modal-title">Mathematic Classes</h4>
+	      </div>
+	      <div class="modal-body">
+	      	<figure>
+	      		<img src="img/classes-modal/02.jpg" alt="img">
+	      	</figure>
+	      	<h4>Description of the Course</h4>
+	      	<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+	      	<a href="http://cssarrowplease.com/" class="btn btn-default"> Suscribe now</a>
+	      </div>
+	      <div class="modal-footer"></div>
+	    </div>
+	  </div>
+	</div>
+
+
+	<!-- Modal 03-->
+	<div class="modal fade" id="class03" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	        <h4 class="modal-title" id="myModalLabel">Mathematic Classes</h4>
+	      </div>
+	      <div class="modal-body">
+	      	<figure>
+	      		<img src="img/classes-modal/03.jpg" alt="img">
+	      	</figure>
+	      	<h4>Description of the Course</h4>
+	      	<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+	      	<a href="http://cssarrowplease.com/" class="btn btn-default"> Suscribe now</a>
+	      </div>
+	      <div class="modal-footer"></div>
+	    </div>
+	  </div>
+	</div>
+
+
+	<!-- Modal 04-->
+	<div class="modal fade" id="class04" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	        <h4 class="modal-title">Mathematic Classes</h4>
+	      </div>
+	      <div class="modal-body">
+	      	<figure>
+	      		<img src="img/classes-modal/01.jpg" alt="img">
+	      	</figure>
+	      	<h4>Description of the Course</h4>
+	      	<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+	      	<a href="http://cssarrowplease.com/" class="btn btn-default"> Suscribe now</a>
+	      </div>
+	      <div class="modal-footer"></div>
+	    </div>
+	  </div>
+	</div>
+
+
+	<!-- Modal 05-->
+	<div class="modal fade" id="class05" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	        <h4 class="modal-title">Mathematic Classes</h4>
+	      </div>
+	      <div class="modal-body">
+	      	<figure>
+	      		<img src="img/classes-modal/02.jpg" alt="img">
+	      	</figure>
+	      	<h4>Description of the Course</h4>
+	      	<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+	      	<a href="http://cssarrowplease.com/" class="btn btn-default"> Suscribe now</a>
+	      </div>
+	      <div class="modal-footer"></div>
+	    </div>
+	  </div>
+	</div>
+
+
+	<!-- Modal 06-->
+	<div class="modal fade" id="class06" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	        <h4 class="modal-title">Mathematic Classes</h4>
+	      </div>
+	      <div class="modal-body">
+	      	<figure>
+	      		<img src="img/classes-modal/03.jpg" alt="img">
+	      	</figure>
+	      	<h4>Description of the Course</h4>
+	      	<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+	      	<a href="http://cssarrowplease.com/" class="btn btn-default"> Suscribe now</a>
+	      </div>
+	      <div class="modal-footer"></div>
+	    </div>
+	  </div>
+	</div>
+
+
+	<!-- Modal 07-->
+	<div class="modal fade" id="class07" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	        <h4 class="modal-title">Mathematic Classes</h4>
+	      </div>
+	      <div class="modal-body">
+	      	<figure>
+	      		<img src="img/classes-modal/01.jpg" alt="img">
+	      	</figure>
+	      	<h4>Description of the Course</h4>
+	      	<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+	      	<a href="http://cssarrowplease.com/" class="btn btn-default"> Suscribe now</a>
+	      </div>
+	      <div class="modal-footer"></div>
+	    </div>
+	  </div>
+	</div>
+
+
+	<!-- Modal 08-->
+	<div class="modal fade" id="class08" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	        <h4 class="modal-title">Mathematics Classes</h4>
+	      </div>
+	      <div class="modal-body">
+	      	<figure>
+	      		<img src="img/classes-modal/02.jpg" alt="img">
+	      	</figure>
+	      	<h4>Description of the Course</h4>
+	      	<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+	      	<a href="http://cssarrowplease.com/" class="btn btn-default"> Suscribe now</a>
+	      </div>
+	      <div class="modal-footer"></div>
+	    </div>
+	  </div>
+	</div>
+
+
+	<!-- Modal Teacher 01-->
+	<div class="modal fade" id="teacher01" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	        <h4 class="modal-title">Mathematics Teacher</h4>
+	      </div>
+	      <div class="modal-body">
+	      		<div class="row">
+	      			<div class="col-sm-4">
+	      				<figure>
+				      		<img src="img/teachers/teacher-01.jpg" alt="img">
+				      	</figure>
+	      			</div>
+	      			<div class="col-sm-8">
+	      				<h4>Meet Adam Smithson</h4>
+		      			<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+		      			<p>Stay in contact with this teacher: <a href="#"><i class="icon-twitter"></i></a><a href="#"><i class="icon-facebook"></i></a></p>
+	      			</div>
+	      		</div>
+	      </div>
+	      <div class="modal-footer"></div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- Modal Teacher 02-->
+	<div class="modal fade" id="teacher02" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	        <h4 class="modal-title">Marketing Teacher</h4>
+	      </div>
+	      <div class="modal-body">
+	      		<div class="row">
+	      			<div class="col-sm-4">
+	      				<figure>
+				      		<img src="img/teachers/teacher-02.jpg" alt="img">
+				      	</figure>
+	      			</div>
+	      			<div class="col-sm-8">
+	      				<h4>Meet Adam Smithson</h4>
+		      			<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+		      			<p>Stay in contact with this teacher: <a href="#"><i class="icon-twitter"></i></a><a href="#"><i class="icon-facebook"></i></a></p>
+	      			</div>
+	      		</div>
+	      </div>
+	      <div class="modal-footer"></div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- Modal Teacher 03-->
+	<div class="modal fade" id="teacher03" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	        <h4 class="modal-title">Web Design Teacher</h4>
+	      </div>
+	      <div class="modal-body">
+	      		<div class="row">
+	      			<div class="col-sm-4">
+	      				<figure>
+				      		<img src="img/teachers/teacher-03.jpg" alt="img">
+				      	</figure>
+	      			</div>
+	      			<div class="col-sm-8">
+	      				<h4>Meet Tom Redeert</h4>
+		      			<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+		      			<p>Stay in contact with this teacher: <a href="#"><i class="icon-twitter"></i></a><a href="#"><i class="icon-facebook"></i></a></p>
+	      			</div>
+	      		</div>
+	      </div>
+	      <div class="modal-footer"></div>
+	    </div>
+	  </div>
+	</div>
+
+
+	<!-- Modal Teacher 04-->
+	<div class="modal fade" id="teacher04" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	        <h4 class="modal-title">SEO Teacher</h4>
+	      </div>
+	      <div class="modal-body">
+	      		<div class="row">
+	      			<div class="col-sm-4">
+	      				<figure>
+				      		<img src="img/teachers/teacher-04.jpg" alt="img">
+				      	</figure>
+	      			</div>
+	      			<div class="col-sm-8">
+	      				<h4>Meet Jake Valiner</h4>
+		      			<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+		      			<p>Stay in contact with this teacher: <a href="#"><i class="icon-twitter"></i></a><a href="#"><i class="icon-facebook"></i></a></p>
+	      			</div>
+	      		</div>
+	      </div>
+	      <div class="modal-footer"></div>
+	    </div>
+	  </div>
+	</div>
+
+
+
+
+	<div id='siteLoader'> 
+		<img src="img/loader.gif" class="loader" alt="loader"/> 
+    </div> 
+
+  <!-- ======================= JQuery libs =========================== -->
+    <!-- jQuery -->
+    <script src="js/jquery-1.9.1.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--Scroll To-->         
+    <script src="js/nav/jquery.scrollTo.js"></script> 
+    <script src="js/nav/jquery.nav.js"></script> 
+
+	<!-- Responsive Video -->
+    <script src="js/jquery.fitvids.min.js"></script>
+    <script src="js/jquery.placeholder.min.js"></script>
+
+	<!-- Fixed menu -->
+    <script src="js/jquery-scrolltofixed.js"></script> 
+
+	<!-- Video -->
+    <script src="js/jquery.mb.YTPlayer.js"></script> 
+
+	<!-- Custom -->
+    <script src="js/script.js"></script>
+
+  <!-- ======================= End JQuery libs ======================= -->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
